@@ -45,7 +45,9 @@ print(students_reverse)
 # l)
 students_even = students[0: 5: 2]
 print(students_even)
+# alternatively [0::2]
 
 # m)
 students_odd = students[1:6:2]
 print(students_odd)
+# alternatively [1::2]
