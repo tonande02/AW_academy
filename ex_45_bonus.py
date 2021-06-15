@@ -3,17 +3,17 @@
 import random
 
 students = [
-    "Rasmus",
-    "Tonje",
-    "Fredrik",
-    "Alexis",
-    "Robbie", 
-    "Susan",
-    "Maria",
-    "Audun",
-    "Troels",
-    "Kristoffer",
-    "Alland"]
+    "Anders",
+    "Ole",
+    "Silje",
+    "Thomas",
+    "Mary", 
+    "Carolyn",
+    "Regina",
+    "Max",
+    "Simon",
+    "Patrick",
+    "Jenny"]
 
 group_1 = []
 group_2 = []
