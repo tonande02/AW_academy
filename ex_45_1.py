@@ -1,7 +1,7 @@
 # Testing lists
 
 # a)
-students = ['Tonje', 'Susan', 'Fredrik', 'Alexis', 'Audun']
+students = ['Andreas', 'Kari', 'Henrik', 'Alex', 'Hans']
 print(students)
 
 # b)
