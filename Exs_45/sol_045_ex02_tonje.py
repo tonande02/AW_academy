@@ -19,6 +19,7 @@ else:
     print("No yahtzee, boohoo... Go again!\n")
 
 
+# Checking that it works if the player gets Yahtzee
 tries = 0
 while not all(d == rand_dices[0] for d in rand_dices):
     tries += 1

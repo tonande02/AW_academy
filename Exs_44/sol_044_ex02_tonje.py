@@ -14,9 +14,9 @@ if s1 == s2 == s3 == s4 == s5 == s6:
     print(f"Wow, you got yahtzee in one! Amazing! {s1} is your lucky number!")
 else:
     print("\nSorry, no yahtzee for you... Let's keep trying until we get there!\n")
-    # print(s1, s2, s3, s4, s5, s6)
+    
 
-
+# Checking that it works if the player gets Yahtzee
 count = 0
 while not (s1 == s2 == s3 == s4 == s5 == s6):
     count += 1

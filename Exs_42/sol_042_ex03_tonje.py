@@ -1,4 +1,4 @@
-punishment_text = "I will not copy-paste that from that Stackoverflow\n"
+punishment_text = "I will not copy-paste the solutions from the Stackoverflow\n"
 numb_of_repititions = 20
 
 # a)
@@ -9,4 +9,4 @@ numb_of_repititions = 20
 
 # c)
 print((punishment_text[:6] + punishment_text[10:].replace('paste', 'delete')) * numb_of_repititions)
-print("The number of 'that's in the original sentence is:", punishment_text.count('that'))
+print("The number of 'that's in the original sentence is:", punishment_text.count('the'))
