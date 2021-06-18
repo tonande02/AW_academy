@@ -1,0 +1,8 @@
+hello : there 
+yo : missy 
+greetings : dudette 
+au : revoir 
+auf : wiedersehen 
+sweet : baloney 
+mickey : mouse 
+next : pair 
