@@ -17,4 +17,4 @@ def fizz_buzz(nr):
 
 # calling the function 100 times
 for i in range(1,101):
-    print(f"{fizz_buzz(i)}", end=", ") # have not removed the comma
+    print(f"{fizz_buzz(i)}", end=", ")
