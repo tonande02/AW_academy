@@ -17,7 +17,10 @@ while new_entry.lower() != "revert":
     else:
         try:
             entry = new_entry.split(";")
-            user_dict[entry[0]] = entry[1]
+            if entry[0] in user_dict:
+                user_dict[entry[0]] += (entry[1])
+            else:
+                user_dict[entry[0]] = entry[1]
         except:
             print("Wrong input, please try again")
             continue
