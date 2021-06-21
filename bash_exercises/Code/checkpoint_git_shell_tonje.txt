@@ -1,0 +1,73 @@
+# I'm marking terminal outputs with #, to make navigation followable
+
+Commands
+
+1.
+pwd
+# /c/Users/Tonje/AW_Academy
+cd ..
+ls
+cd git/data_engineering/bash_exercises
+pwd
+# /c/Users/Tonje/git/data_engineering/bash_exercises
+
+
+2.
+find ./backup/DSC*
+
+3.
+export FAVMOV=Tarzan
+
+4.
+printenv | grep Tarzan
+
+5.
+git branch
+
+6.
+git status
+git pull --rebase
+git log
+git status
+git push
+
+
+
+Script
+
+1.
+touch UTC_time.sh
+nano UTC_time.sh
+
+# script start
+
+#!/bin/bash
+echo "The current time in UTC is:"
+date --utc
+
+# script end
+
+./UTC_time.sh
+
+
+
+2. Bonus
+
+# didn't finish this, am trying to use the modulo to see if nr is
+# odd (tails) or even (heads), but am doing smt wrong
+
+#! /bin/bash
+
+
+# COIN_FLIPS = 5 in local environment
+
+for ((i = 1; i <= $COIN_FLIPS; i++)); 
+    do
+    
+        if [ $($RANDOM % 2) == 1 ]
+            then
+                echo "Tails"
+            else
+                echo "Heads"
+        fi
+    done
