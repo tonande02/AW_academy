@@ -33,17 +33,19 @@ class Person(object):
         Return: person-object's full name from its first and last name variables
         """
 
-        return self.get_full_name()
+        return self.full_name
     
-    def get_full_name(self):
+    @full_name.setter
+    def full_name(self):
         return f"{self.first_name} {self.last_name}"
     
 
     @property
     def email(self):
-        return f"{self.first_name}.{self.last_name}@{self.domain}"
+        return self.email
 
-    def get_email(self):
+    @email.setter
+    def email(self):
         """
         Args: self
         Return: person-object's email adress
@@ -52,7 +54,12 @@ class Person(object):
         return f"{self.first_name}.{self.last_name}@{self.domain}"
     
 
-    def get_phone(self):
+    @property
+    def phone(self):
+        return self.phone
+    
+    @phone.setter
+    def phone(self):
         """
         Args: self
         Return: person-object's phone-variable
